@@ -19,8 +19,8 @@ const generateStatic = async ({files, paths, parameters}) => {
     if (checkFileAvailability(sourceFile, parameters)) {
       const filePath = path.join(paths.dest, path.relative(paths.src, sourceFile))
       const dirPath = path.parse(filePath).dir
-      const template = handlebars.compile(fs.readFileSync(sourceFile, 'utf8'))
-      const payload = template({...parameters})
+      const fileRawData = fs.readFileSync(sourceFile, 'utf8')
+      const payload = filePath.match(/\.(vue$|html)/) ? fileRawData : handlebars.compile(fileRawData)({...parameters})
 
       await makeDirectory(dirPath)
       fs.writeFileSync(filePath, payload, 'utf8')

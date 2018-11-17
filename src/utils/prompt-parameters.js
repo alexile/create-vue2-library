@@ -7,7 +7,7 @@ module.exports = () => (
       type: 'confirm',
       name: 'unique',
       message: 'unique npm package name',
-      default: true
+      default: false
     },
     {
       type: 'input',
@@ -18,7 +18,8 @@ module.exports = () => (
     {
       type: 'input',
       name: 'description',
-      message: 'package description'
+      message: 'package description',
+      default: ''
     },
     {
       type: 'confirm',
@@ -29,12 +30,14 @@ module.exports = () => (
     {
       type: 'input',
       name: 'repo',
-      message: 'package repository address'
+      message: 'package repository address',
+      default: ''
     },
     {
       type: 'input',
       name: 'author',
-      message: 'author name'
+      message: 'author name',
+      default: ''
     },
     // {
     //   type: 'list',

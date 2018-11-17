@@ -7,10 +7,10 @@ const initPackage = async (paths, {manager, example}) => {
       cmd: `${manager} install`,
       cwd: paths.lib
     },
-    // {
-    //   cmd: `${manager} link`,
-    //   cwd: paths.lib
-    // }
+    {
+      cmd: `${manager} link`,
+      cwd: paths.lib
+    }
   ]
 
   if (example) {

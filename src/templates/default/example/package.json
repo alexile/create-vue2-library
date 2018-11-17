@@ -1,6 +1,7 @@
 {
-  "name": "libts",
-  "version": "0.1.0",
+  "name": "{{name}}-app",
+  "version": "{{version}}",
+  "license": "{{license}}",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -17,7 +18,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "{{name}}": "{{#if yarn}}link:..{{else}}file:..{{/if}}"
   },
   "eslintConfig": {
     "root": true,
