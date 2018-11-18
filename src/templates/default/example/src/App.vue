@@ -1,13 +1,13 @@
 <template>
   <div id="app" class="App">
-    <Text>Hello world</Text>
+    <ExampleComponent>Hello world</ExampleComponent>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'app'
+  name: 'App'
 }
 </script>
 

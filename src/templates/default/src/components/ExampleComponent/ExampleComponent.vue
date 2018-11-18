@@ -1,12 +1,12 @@
 <template>
-    <div class="Text" :style="{color}">
+    <div class="ExampleComponent" :style="{color}">
         <slot></slot>
     </div>
 </template>
 
 <script>
   export default {
-    name: 'Text',
+    name: 'ExampleComponent',
     props: {
       color: {
         type: String,

@@ -1,7 +1,7 @@
-import Text from './components/Text'
+import ExampleComponent from './components/ExampleComponent'
 
 export default {
-  install (Vue, options) {
-    Vue.component('Text', Text)
+  install (Vue) {
+    Vue.component('ExampleComponent', ExampleComponent)
   }
 }
