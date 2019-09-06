@@ -2,7 +2,7 @@
 
 Generate Vue 2 library in few seconds. Add example for testing library on the fly. CLI with customisable features. Create your own UI library for Vue.js.
 
-[![NPM](https://img.shields.io/npm/v/create-vue2-library.svg)](https://www.npmjs.com/package/create-vue2-library) [![Build Status](https://travis-ci.com/transitive-bullshit/create-vue2-library.svg?branch=master)](https://travis-ci.com/transitive-bullshit/create-vue2-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/create-vue2-library.svg)](https://www.npmjs.com/package/create-vue2-library) [![Build Status](https://travis-ci.com/transitive-bullshit/create-vue2-library.svg?branch=master)](https://travis-ci.com/transitive-bullshit/create-vue2-library) [![JavaScript](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Installation
 
